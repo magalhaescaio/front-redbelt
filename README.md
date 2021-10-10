@@ -9,4 +9,4 @@ execute comando\
 npm install
 
 e para rodar aplicação\
-npm run build
+npm start
