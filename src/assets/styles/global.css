@@ -1,0 +1,96 @@
+body{
+    background: #f0f2f5;
+}
+
+.container{
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    padding-right:15px;
+    padding-left:15px
+}
+
+.loading-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active-link{
+  color: #5db027;
+  font-weight: bold;
+}
+
+.inactive-link{
+  color: #b03e27;
+  font-weight: bold;
+}
+
+.table-action-icon{
+  font-size: 18px;
+  margin-right: 3px;
+  cursor: pointer;
+}
+.description{
+  max-width: 15ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.deleted{
+  color: #b84a35;
+}
+
+@media (min-width: 476px){
+    .container{
+      padding-right:15px;
+      padding-left:15px
+    }
+}
+@media (min-width: 768px){
+    .container{
+      padding-right:15px;
+      padding-left:15px
+    }
+}
+@media (min-width: 992px){
+    .container{
+      padding-right:15px;
+      padding-left:15px
+    }
+}
+@media (min-width: 1200px){
+    .container{
+      padding-right:15px;
+      padding-left:15px
+    }
+}
+@media (min-width: 476px){
+    .container{
+      width:100%
+    }
+}
+@media (min-width: 768px){
+    .container{
+      width:720px;
+      max-width:100%
+    }
+}
+@media (min-width: 992px){
+    .container{
+      width:960px;
+      max-width:100%
+    }
+}
+@media (min-width: 1200px){
+    .container{
+      width:1140px;
+      max-width:100%
+    }
+}
+@media (min-width: 1400px){
+    .container{
+      width:1340px;
+      max-width:100%
+    }
+}
